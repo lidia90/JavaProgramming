@@ -1,0 +1,23 @@
+package prac;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class Prac {
+
+	public static void main(String[] args) {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+		driver.get("https://www.amazon.in/s?k=samsung+s24+fe+5g&crid=EATC1O8L7XUX&sprefix=samsung%2Caps%2C236&ref=nb_sb_ss_mvt-t11-ranker_6_7");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("//h2[@aria-label='Samsung Galaxy S24 FE 5G AI Smartphone (Graphite, 8GB RAM, 128GB Storage)']/ancestor::div[@class='a-section a-spacing-small a-spacing-top-small']/descendant::span[@class='a-button-inner']")).click();
+	}
+
+}

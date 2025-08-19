@@ -1,0 +1,17 @@
+package Day1;
+
+public class Ifelsecondition {
+
+	public static void main(String[] args) {
+		
+		int person_age = 18;
+		if (person_age >= 20) {
+			System.out.println("eligible");
+		}
+		else
+		{
+			System.out.println("not eligible");
+		}
+	}
+
+}

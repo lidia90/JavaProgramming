@@ -1,0 +1,12 @@
+package Day9;
+
+public class Greetings {
+
+	//No param No return value
+	
+	void m1()
+	{
+		System.out.println("heloo...");
+	}
+
+}

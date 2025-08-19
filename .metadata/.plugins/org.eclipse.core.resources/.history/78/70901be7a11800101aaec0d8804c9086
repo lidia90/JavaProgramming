@@ -1,0 +1,15 @@
+package Day9;
+
+public class StudentMain {
+
+	public static void main(String[] args) 
+	{
+		Student stu = new Student();
+		stu.sid=100;
+		stu.sname= "John";
+		stu.grade='A';
+		
+		stu.printStudentData();
+	}
+
+}

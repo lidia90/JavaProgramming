@@ -1,0 +1,29 @@
+package practice;
+
+import java.util.Random;
+
+import org.apache.commons.lang.RandomStringUtils;
+
+public class GenerateRandomNumberAndString {
+
+	public static void main(String[] args) 
+	{
+		//approach 1---Random class(build in java)
+		
+		/*Random rand = new Random();
+		int rand_no= rand.nextInt(100);
+		System.out.println(rand_no);*/
+		
+		//approach 2---Math
+		
+		//System.out.println(Math.random());
+		
+		//approach 3--Apache commands-lang APIs
+		
+		String numb=RandomStringUtils.randomNumeric(5);
+		System.out.println(numb);
+		String ranStr=RandomStringUtils.randomAlphabetic(4);
+		System.out.println(ranStr);
+	}
+
+}

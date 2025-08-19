@@ -1,0 +1,18 @@
+package Udemy;
+
+public class Pattern3 {
+
+	public static void main(String[] args) {
+		int n=5,count=0;
+		for(int i=1;i<=n;i++)
+		{
+			for(int j=1;j<=n;j++)
+			{	count++;
+				System.out.format("%2d ",count);
+			}
+			System.out.println("");
+
+		}
+	}
+
+}

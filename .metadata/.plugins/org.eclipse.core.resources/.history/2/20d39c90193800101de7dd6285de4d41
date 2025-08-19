@@ -1,0 +1,20 @@
+package practice;
+
+import java.util.Random;
+
+public class GenerateRandomNumberAndString {
+
+	public static void main(String[] args) 
+	{
+		//approach 1---Random class(build in java)
+		
+		/*Random rand = new Random();
+		int rand_no= rand.nextInt(100);
+		System.out.println(rand_no);*/
+		
+		//approach 2---Math
+		
+		System.out.println(Math.random());
+	}
+
+}

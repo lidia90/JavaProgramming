@@ -1,0 +1,19 @@
+package Day1;
+
+class Movie {
+	String title;
+	String genre;
+	int rating;
+	
+	void play() {
+		System.out.println("playing the movie");
+	}
+}
+
+public class MovieTestDriver {
+	public static void main() {
+		Movie one = new Movie();
+		
+	}
+	
+}

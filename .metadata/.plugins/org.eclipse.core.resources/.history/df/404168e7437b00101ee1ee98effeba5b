@@ -1,0 +1,16 @@
+package practice1;
+
+public class Greeting_main 
+{
+
+	public static void main(String[] args) 
+	{
+		String s = "Subburaj123";
+		
+		String s1 = s.replaceAll("[^A-Za-z]",s);
+		System.out.println(s1);
+		
+	}
+		
+}
+

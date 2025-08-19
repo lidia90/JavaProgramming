@@ -1,0 +1,35 @@
+package Day9;
+
+public class Greetings {
+
+	//No param No return value
+	
+	void m1()
+	{
+		System.out.println("heloo...");
+	}
+	
+	//No param Return value
+	
+	String m2()
+	{
+		return ("how r u?");
+	}
+	
+	//takes param no return value
+	
+	void m3(String name)
+	{
+		System.out.println("hello" +" "+ name);
+	}
+	
+	//takes param return values
+	
+	String m4(String name)
+	{
+		return ("hello "+ name);
+	}
+	
+	
+
+}

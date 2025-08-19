@@ -1,0 +1,22 @@
+package Day9;
+
+public class StudentMain {
+
+	public static void main(String[] args) 
+	{
+		//Student stu = new Student();
+		
+		// using object reference variable
+		/*stu.sid=100;
+		stu.sname= "John";
+		stu.grade='A';
+		//using method
+		stu.setStudentData(100,"John",'A');
+		stu.printStudentData();*/
+		
+		//using constructor
+		Student stu = new Student(100,"John",'A');
+		stu.printStudentData();
+	}
+
+}

@@ -1,0 +1,13 @@
+package Day1;
+
+public class Ifelsecondition {
+
+	public static void main(String[] args) {
+		
+		int x = 3;
+		if (x==3) {
+			System.out.println("correct");
+		}
+ System.out.println("no matter what");
+}
+}
